@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: serviceb-container
-        image: hhana982/serviceb:1.3
+        image: hhana982/serviceb:1.4
         ports:
         - containerPort: 5000
         env: 
