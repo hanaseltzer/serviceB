@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: serviceb
+  labels:
+    service: serviceb
+spec:
+  selector:
+    service: serviceb
+  ports:
+    - protocol: TCP
+      port: 5000
+      targetPort: 5000
+  type: ClusterIP
