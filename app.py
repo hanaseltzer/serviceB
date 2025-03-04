@@ -12,4 +12,4 @@ def bye():
 	return f"reply from endpoint bye"
 
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run(host="0.0.0.0", debug=True)
